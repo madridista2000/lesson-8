@@ -8,8 +8,11 @@
     .conteiner {align-items: center;}
 }
 @media (max-width:480px) {
-    .left-box-head {width: 100%;}
+    .left-box-head {width: 100%;
+    font-size: 40px;}
     .text2 {width: 100%;}
-    .conteiner {height: 1560px;}
     .conteiner-box {width: 100%;}
+    .section2-head {font-size: 20px;}
+    .botton {width: 300px;}
+    
 }
