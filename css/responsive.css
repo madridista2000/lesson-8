@@ -1,0 +1,15 @@
+@media (max-width:1175px) {
+    .conteiner {width: 100%;}
+    .section1-box {flex-direction: column;}
+}
+@media (max-width:768px) {
+    .section2-text {width: 100%;}
+    .navul {display: none;}
+    .conteiner {align-items: center;}
+}
+@media (max-width:480px) {
+    .left-box-head {width: 100%;}
+    .text2 {width: 100%;}
+    .conteiner {height: 1560px;}
+    .conteiner-box {width: 100%;}
+}

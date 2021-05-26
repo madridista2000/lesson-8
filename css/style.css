@@ -54,7 +54,6 @@
 }
 .section1-box {
 	width: 100%;
-	height: 602px;
 	display: flex;
 }
 .left-box {
@@ -113,12 +112,11 @@
 }
 .section2-text {
 	width: 620px;
-	margin: 0 auto;
 	text-align: center;
 	opacity: 0.65;
 }
 .conteiner {
-	width: 1164px;
+	max-width: 1164px;
 	height: 780px;
 	display: flex;
 	flex-wrap: wrap;
