@@ -112,7 +112,7 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
-	/* align-items: center; */
+	align-items: center;
 }
 .section2-head {
 	font-size: 35px;
