@@ -2,16 +2,28 @@
     .conteiner {width: 100%;}
     .section1-box {flex-direction: column;}
 }
-@media (max-width:768px) {
+@media (max-width:775px) {
     .section2-text {width: 100%;}
+    .section2-head {text-align: center;}
     .navul {display: none;}
-    .conteiner {align-items: center;}
+    .burger {display: block;
+    margin-right: 20px;}
+    .section2-conteiner {justify-content: flex-start;
+                         height: 1200px;}
+    .conteiner {align-items: center;
+    justify-content: space-around;}
+    .conteiner-box {width: 320px;}
+}
+@media (max-width:672px) {
+    .section2-conteiner {height: 2450px;}
 }
 @media (max-width:480px) {
     .left-box-head {width: 100%;
     font-size: 40px;}
     .text2 {width: 100%;}
-    .conteiner-box {width: 100%;}
+    .section2-conteiner {height: 2500px;}
+    .conteiner {align-items: center;
+    justify-content: center;}
     .section2-head {font-size: 20px;}
     .botton {width: 300px;}
     
